@@ -61,32 +61,6 @@ Unzip **`figs.zip`** for slide-ready images, e.g.:
 * **Short vs long:** S4/S5 (short/hard) push more counts to **higher energies** than S1/S2 (long/soft).
 * **Sky sanity-checks:** brightest pixel near injected coordinates; plane vs high-lat behave as expected.
 
----
-
-## 🧰 Use the data immediately
-
-> You don’t need to run the notebook to explore — the ZIPs are ready.
-
-**Sky map (FITS) preview**
-
-```python
-import healpy as hp, matplotlib.pyplot as plt
-m = hp.read_map("tier1_data/GRB_LONG60_S2_F1_L000_B+00_sky_map.fits", verbose=False)
-hp.mollview(m, coord="G", title="All-sky (Galactic)"); hp.graticule(); plt.show()
-```
-
-**Spectrum from an HDF5 case**
-
-```python
-from histpy import Histogram
-import matplotlib.pyplot as plt
-h = Histogram.open("tier1_data/GRB_LONG60_S2_F1_L000_B+00.h5")
-spec = h.project("Em")          # the notebook includes robust helpers if names differ
-spec.draw(); plt.xscale("log"); plt.yscale("log"); plt.show()
-```
-
----
-
 ## ▶️ Reproduce (run the notebook)
 
 > The notebook auto-downloads DC3 **response** and **orientation** if they’re not present.
