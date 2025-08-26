@@ -1,7 +1,3 @@
-nice work getting it live! i couldn’t load the page directly from here (github’s page needs scripts), but based on the three files you said are in the repo, here’s a polished, skimmable **README.md** you can paste as-is. it’s formatted for your exact filenames:
-
----
-
 # 🚀 COSI GRB — Tier-1 Simulations
 
 > Compact, reproducible **COSI** GRB simulations to visualize the **CDS ring** signature and bootstrap first-pass **ML experiments**.
