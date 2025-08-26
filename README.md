@@ -1,14 +1,5 @@
-Here’s a cleaner, more visual **README.md** you can paste into your repo.
-It’s organized, skimmable, and uses “quick links” + collapsible sections to stay tidy.
-
----
-
 # 🚀 COSI GRB — Tier-1 Simulations
-
 > A compact, reproducible set of **COSI** gamma-ray burst (GRB) simulations to study the **CDS ring** signature and prepare data for first-pass **ML experiments**.
-
-**Quick links** · [▶️ Run the Notebook](./Grb%20Tier-1%20Simulation%20Notebook.ipynb) · [⬇️ Figures (PNG)](./figs.zip) · [⬇️ Dataset (HDF5/FITS)](./tier1_data.zip)
-
 ---
 
 ## ✨ What you get
